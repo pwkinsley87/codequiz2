@@ -1,0 +1,74 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body {
+    background-color:steelblue;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width:100vw;
+    height:100vh;
+    justify-content:center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    max-width:80%;
+    background-color:blanchedalmond;
+    border-radius:5px;
+    padding: 10px;
+    box-shadow: 0 0 12px 20px;
+}
+
+.question {
+    font-size: 45px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color:goldenrod;
+    font-size: 30px;
+    border-radius:5px;
+    padding: 5px 10px;
+    color:black;
+    outline:none;
+}
+
+.btn:hover {
+    border-color:black;
+    cursor: hand;
+}
+
+.btn.correct {
+    color:darkgreen;
+}
+
+.btn.wrong {
+    color:tomato;
+}
+
+.start-btn, .next-btn {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.controls {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display:none;
+}

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#end { 
+    display:flex;
+    width: 800px;
+    background-color:blanchedalmond;
+    border-radius:5px;
+    padding: 10px;
+    box-shadow: 0 0 12px 20px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.btn {
+    background-color:goldenrod;
+    font-size: 30px;
+    border-radius:5px;
+    padding: 5px 10px;
+    color:black;
+    outline:none;
+}

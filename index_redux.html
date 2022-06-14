@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style_redux.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="quiz-container" class="hide"> 
+            <p id="timer">Time:<span id="timeRemaining">0</span></p>        
+            <div id="question">Question here</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+     <div class="controls">
+         <button id="startBtn" class="startBtn btn">Start</button>
+         <button id="nextBtn" class="nextBtn btn hide">Next</button>
+     </div>
+    </div>
+    z<section id="end" class="hide">
+        <h1 id="endTitle">Quiz Completed!</h1>
+        <p id="scoreText">Your score:<span id="score">0</span></p>
+        <form id="submitScore">
+            <label for="initials">Enter your Initials</label>
+            <input type="text" id="initials">
+            <button type="submit">Submit</button>
+            <p id="errorMessage"></p>
+        </form>
+        <button class="backButton" a href="index.html"><i class="fas fa-angle-left" aria-hidden="true"></i>Return to Quiz</button>
+    </section>
+        
+    
+
+
+
+
+ <script src="./assets/JS/script_redux.js"></script>
+</body>
+</html>
